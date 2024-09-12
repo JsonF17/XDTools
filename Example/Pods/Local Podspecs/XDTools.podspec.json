@@ -1,24 +1,22 @@
 {
   "name": "XDTools",
   "version": "0.1.0",
-  "summary": "A short description of XDTools.",
+  "summary": "XDTools about funny",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/JsonF17/XDTools",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "homepage": "https://baidu.com",
+  "license": "MIT",
   "authors": {
-    "fei122603@outlook.com": "fei122603@outlook.com"
+    "JsonF17": "fei122603@outlook.com"
   },
   "source": {
     "git": "https://github.com/JsonF17/XDTools.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "12.0"
+    "ios": "10.0"
   },
-  "source_files": "XDTools/Classes/**/*.{h,m}",
+  "requires_arc": true,
+  "source_files": "XDTools/Classes/**/*",
   "frameworks": [
     "UIKit",
     "Foundation"
