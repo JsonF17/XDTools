@@ -1,0 +1,41 @@
+PODS:
+  - CocoaAsyncSocket (7.6.5)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GCDWebServer (3.5.4):
+    - GCDWebServer/Core (= 3.5.4)
+  - GCDWebServer/Core (3.5.4)
+  - GDataXMLNode2 (2.0.1)
+  - XDTools (0.1.0):
+    - CocoaAsyncSocket (= 7.6.5)
+    - GCDWebServer (= 3.5.4)
+    - GDataXMLNode2 (= 2.0.1)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - XDTools (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+    - FBSnapshotTestCase
+    - GCDWebServer
+    - GDataXMLNode2
+
+EXTERNAL SOURCES:
+  XDTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
+  GDataXMLNode2: 90a3f2cd1f041aa5f43062eec884e0943704bf81
+  XDTools: 3e0dcf72df82a857bc0d5d83fb6f5f39976ada9a
+
+PODFILE CHECKSUM: e82458090abbdc47fab5efd3e00af59d77e8cfa7
+
+COCOAPODS: 1.15.2

@@ -1,0 +1,6 @@
+framework module XDTools {
+  umbrella header "XDTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

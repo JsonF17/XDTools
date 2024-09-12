@@ -1,0 +1,6 @@
+framework module Pods_XDTools_Example {
+  umbrella header "Pods-XDTools_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

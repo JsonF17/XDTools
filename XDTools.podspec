@@ -21,22 +21,25 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/fei122603@outlook.com/XDTools'
+  s.homepage         = 'https://github.com/JsonF17/XDTools'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fei122603@outlook.com' => 'fei122603@outlook.com' }
-  s.source           = { :git => 'https://github.com/fei122603@outlook.com/XDTools.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/JsonF17/XDTools.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
-  s.source_files = 'XDTools/Classes/**/*'
+  s.source_files = 'XDTools/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'XDTools' => ['XDTools/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit','Foundation'
+  
+  s.dependency 'GDataXMLNode2', '2.0.1'
+  s.dependency 'GCDWebServer', '3.5.4'
+  s.dependency 'CocoaAsyncSocket', '7.6.5'
 end
