@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'XDTools'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of XDTools.'
+  s.summary          = 'XDTools about funny'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -29,13 +29,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '12.0'
   s.requires_arc = true
-  s.source_files = 'XDTools/Classes/**/*.{h,m}' 
+  s.source_files = 'XDTools/**/*.{h,m}' 
   
   # s.resource_bundles = {
   #   'XDTools' => ['XDTools/Assets/*.png']
   # }
 
-  s.public_header_files = 'XDTools/Classes/**/*.h'
+  s.public_header_files = 'XDTools/**/*.h'
   s.frameworks = 'UIKit','Foundation'
   
   s.dependency 'GDataXMLNode2', '2.0.1'
