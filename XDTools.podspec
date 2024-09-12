@@ -29,13 +29,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '12.0'
   s.requires_arc = true
-  s.source_files = 'XDTools/**/*.{h,m}' 
+  s.source_files = 'XDTools/Classes/**/*.{h,m}' 
   
   # s.resource_bundles = {
   #   'XDTools' => ['XDTools/Assets/*.png']
   # }
 
-  s.public_header_files = 'XDTools/**/*.h'
+  s.public_header_files = 'XDTools/Classes/**/*.h'
   s.frameworks = 'UIKit','Foundation'
   
   s.dependency 'GDataXMLNode2', '2.0.1'
