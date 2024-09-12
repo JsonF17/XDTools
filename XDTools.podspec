@@ -21,22 +21,21 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/JsonF17/XDTools'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'fei122603@outlook.com' => 'fei122603@outlook.com' }
+  s.homepage         = 'https://baidu.com'
+  s.license          = 'MIT'
+  s.author           = { 'JsonF17' => 'fei122603@outlook.com' }
   s.source           = { :git => 'https://github.com/JsonF17/XDTools.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
-
-  s.source_files = 'XDTools/Classes/**/*.{h,m}'
+  s.requires_arc = true
+  s.source_files = 'XDTools/**/*.{h,m}' 
   
   # s.resource_bundles = {
   #   'XDTools' => ['XDTools/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'XDTools/**/*.h'
   s.frameworks = 'UIKit','Foundation'
   
   s.dependency 'GDataXMLNode2', '2.0.1'
